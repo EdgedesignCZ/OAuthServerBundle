@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Client
  *
- * @ORM\Entity
+ * @ORM\MappedSuperclass
  *
  * @author VeN <vaclav.novotny@edgedesign.cz>
  */
