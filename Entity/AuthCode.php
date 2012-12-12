@@ -27,7 +27,7 @@ abstract class AuthCodeToken extends \FOS\OAuthServerBundle\Entity\AuthCode
     protected $client;
 
     /**
-     * @ORM\ManyToOne(targetEntity="Your\Own\Entity\User")
+     * ORM ManyToOne(targetEntity="Your\Own\Entity\User")
      */
     protected $user;
 

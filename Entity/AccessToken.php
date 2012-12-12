@@ -27,7 +27,7 @@ abstract class AccessToken extends \FOS\OAuthServerBundle\Entity\AccessToken
     protected $client;
 
     /**
-     * @ORM\ManyToOne(targetEntity="Your\Own\Entity\User")
+     * ORM ManyToOne(targetEntity="Your\Own\Entity\User")
      */
     protected $user;
 
