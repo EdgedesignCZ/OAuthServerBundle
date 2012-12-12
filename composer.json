@@ -12,6 +12,7 @@
     "autoload": {
         "psr-0": { "Edge\\OAuthServerBundle": "" }
     },
+    "target-dir": "Edge/OAuthServerBundle",
     "require": {
         "php": ">=5.3.3",
         "friendsofsymfony/oauth-server-bundle": "1.2.2"
