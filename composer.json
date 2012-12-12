@@ -1,0 +1,19 @@
+{
+    "name": "edgedesign/oauth-server-bundle",
+    "type": "symfony-bundle",
+    "description": "Edgedesign API server bundle based on FOSOAuthServerBundle",
+    "keywords": ["oauth", "oauth2", "server"],
+    "authors": [
+        {
+          "name": "Václav Novotný",
+          "email": "vaclav.novotny@edgedesign.cz"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "Edge\\OAuthServerBundle": "" }
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "friendsofsymfony/oauth-server-bundle": "1.2.2"
+    }
+}

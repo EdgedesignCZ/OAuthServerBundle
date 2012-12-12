@@ -1,0 +1,7 @@
+parameters:
+#    edge_oauthserver.example.class: Edge\OAuthServerBundle\Example
+
+services:
+#    edge_oauthserver.example:
+#        class: %edge_api.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
