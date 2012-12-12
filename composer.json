@@ -1,7 +1,7 @@
 {
     "name": "edgedesign/oauth-server-bundle",
     "type": "symfony-bundle",
-    "description": "Edgedesign API server bundle based on FOSOAuthServerBundle",
+    "description": "Edgedesign OAuth server bundle based on FOSOAuthServerBundle",
     "keywords": ["oauth", "oauth2", "server"],
     "authors": [
         {
