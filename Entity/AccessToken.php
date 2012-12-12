@@ -1,6 +1,6 @@
 <?php
 
-namespace Edge\OAuthServerBundle;
+namespace Edge\OAuthServerBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
