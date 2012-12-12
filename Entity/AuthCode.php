@@ -11,7 +11,7 @@ use Doctrine\ORM\Mapping as ORM;
  *
  * @author VeN <vaclav.novotny@edgedesign.cz>
  */
-abstract class AuthCodeToken extends \FOS\OAuthServerBundle\Entity\AuthCode
+abstract class AuthCode extends \FOS\OAuthServerBundle\Entity\AuthCode
 {
     /**
      * @ORM\Id
