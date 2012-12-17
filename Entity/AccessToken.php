@@ -21,7 +21,7 @@ abstract class AccessToken extends \FOS\OAuthServerBundle\Entity\AccessToken
     protected $id;
 
     /**
-     * @ORM\ManyToOne(targetEntity="Client")
+     * @ORM\ManyToOne(targetEntity="Client", cascade={"persist", "remove"})
      * @ORM\JoinColumn(nullable=false)
      */
     protected $client;
