@@ -21,7 +21,7 @@ abstract class AuthCode extends \FOS\OAuthServerBundle\Entity\AuthCode
     protected $id;
 
     /**
-     * @ORM\ManyToOne(targetEntity="Client")
+     * @ORM\ManyToOne(targetEntity="Client", cascade={"persist", "remove"})
      * @ORM\JoinColumn(nullable=false)
      */
     protected $client;
