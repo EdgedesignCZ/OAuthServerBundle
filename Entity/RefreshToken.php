@@ -21,7 +21,7 @@ abstract class RefreshToken extends \FOS\OAuthServerBundle\Entity\RefreshToken
     protected $id;
 
     /**
-     * @ORM\ManyToOne(targetEntity="Client")
+     * @ORM\ManyToOne(targetEntity="Client", cascade={"persist", "remove"})
      * @ORM\JoinColumn(nullable=false)
      */
     protected $client;
